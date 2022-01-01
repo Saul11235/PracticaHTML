@@ -1,2 +1,2 @@
 # PracticaHTML
-Practica de problemas de diseo web
+Practica de ejemplos de desarrollo web en backend, sientase libre de mirar aunque no hay cosas interesantes
