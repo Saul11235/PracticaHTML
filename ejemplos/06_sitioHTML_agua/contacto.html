@@ -7,16 +7,34 @@
   <body>
 
    <h1>contacto</h1>
+   <p>Formato de contancto o de notificación de problemas</p>
    
-   <form>
+   <form> <!-- formulario de contacto -->
      <fieldset>
-       <legend>Datos de contacto</legend>
-       <p>Tu nombre:</p>
+       <legend><h2>Datos de contacto</h2></legend>
+       <p>
+         <h3><u>Nota importante</u></h3>
+	 Recuerde llenar <mark>Todos</mark> los campos del formulario. 
+       </p>
+       <p>Tu nombre: <input type="text" placeholder="nombre"/> </p>
+       <p>Tu contraseña: <input type="password" placeholder="contraseña"/> </p> 
+       <p>Tu puntuacion: <input type="number" max="20" placeholder="0 - 20" /> </p>
+       <p>Tu mensaje: <br/> <textarea placeholder="Escriba su mensaje aqui..."></textarea> </p>
+       <p>Su experiencia fue: 
+         <select>
+	   <option value="1">Buena</option>
+	   <option value="2">Regular</option>
+	   <option value="3">Mala</option>
+	 </select>
+       </p>
+       <p>
+         <input type="submit"/> 
+	 <button>Notificar error</button>
+       </p> 
      </fieldset>
    </form>
-
     
- <div id="pie">
+   <div id="pie"> <!-- pie de pagina -->
     <hr/>
     <h2> contenidos de esta pagina web </h2>
      <ul>
