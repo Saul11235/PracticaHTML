@@ -1,0 +1,20 @@
+/*Este es un comentario de css sera necesario cuando queramos indicar algo en css*/
+
+body {
+  background-color: lightgreen;
+  color: darkblue;
+
+}
+
+/* En css podemos tomar en cuenta dos clases de marcadores
+ * las clases --- class   representadas en css cono .class #VARIOS ELEMENTOS
+ * los ids ------ id     representado por  #id  ES PARA UN ELEMENTO UNICO
+ *   */
+
+#unicoID { 
+  color: red;
+} 
+
+.variosCLASS {
+  color: darkviolet;
+}
