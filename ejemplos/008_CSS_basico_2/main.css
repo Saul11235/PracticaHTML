@@ -32,5 +32,51 @@ body{
  *   +-----------------------------------------------------+
  * */
 
+.caja {
+  margin:8px;
+  border-style:solid;
+  /*border style 
+   * none hidden dotted dashed solid double groove ridge inset
+   * outset */ 
+  border-width:10px;
+  border-color:darkgreen;
+  padding:5px;
+  background-color:indianred;
+  /*para cada lado
+   * border-top   border-bottom    border-left   border-right
+   *  Ejemplo
+   *    border-top: black 10px solid
+   * */
+  border-right: darkcyan 10px dotted;
+  border-bottom: lightyellow 8px double;
+  /*border radius sirve para redondear los bordes
+   * hay opciones personalizadas  para las 4 esquinas
+   * border-top-left-radius:    border-bottom-right-radius:*/
+  border-radius:9px;
+  /*se pueden predefinir los atributos de ancho y largo y color de texto*/
+  width:400px;
+  height:400px;
+  color:darkblue;
+
+} 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
