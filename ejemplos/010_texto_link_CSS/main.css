@@ -25,11 +25,32 @@ body {
 
 
 /*estilo para las direcciones <a>*/
-a {/*estilo normal*/
-  background-color:lightyellow;padding:10px;margin:15px;font-size:2em;
+/*-----------------*/
+a {/*bases iniciales del estilo*/
+  background-color:lightyellow;padding:10px;margin:15px;font-size:2em;border-radius:15px;
 
   text-decoration:none;/*subrarado link puede ser
   underline overline line-through blink */
   text-transform:uppercase;/*cambia mayusculas y minisculas*/
   /*uppercase lowercase capitalize */
+}
+/*------------------*/
+a:visited {/* Link Visitado  */
+  background-color:grey;
+  color:white;
+  }
+/*------------------*/  
+a:link { /*link normal*/
+  color:darkblue;
+  background-color:whitesmoke;
+} 
+/*--------------------*/
+a:hover { /*lin cuando se pasa el menu*/
+  color:darkblue;
+  background-color:yellow;
+}
+/*---------------------*/
+a:active { /*cuando se hace clic*/
+  color:white;
+  background-color:darkkhaki;
 }
