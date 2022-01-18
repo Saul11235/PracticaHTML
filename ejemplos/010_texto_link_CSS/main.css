@@ -10,6 +10,7 @@ body {
   /*etiquetas para dar formato al texto*/
   color:darkred; /*color fuente*/
   text-align:justify;/*alineam: -left,center.rigth,justify*/
+  text-indent:200px;/*sangria*/
   line-height:1.5;/* da espaciamiento entre lineas */
   letter-spacing:2px; /*espacio entre letras*/
   word-spacing:5px;/*espacios entre palabras*/

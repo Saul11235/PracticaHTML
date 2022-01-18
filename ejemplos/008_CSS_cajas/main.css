@@ -5,32 +5,32 @@ body{
 }  
 
 /* basicamente 
- *
- * Margin : es el margen que hay desde un elemento
- *          hasta los que tenga al lado.
- *
- * Border : dibuja un borde alrededor justo de ese contenido.
- *
- * Padding : es el espacio que hay en un contenedor entre el
- *           contenido y los bordes del contenedor.
- *
- *   +-----------------------------------------------------+
- *   |                     margin-top                      |
- *   |       +-------------------------------------+       |
- *   |       |             border-top              |       |
- *   |       |       +---------------------+       |       |
- *   |       |       |     padding-top     |       |       |
- *   |       |       |        +---+        |       |       |
- *   |margin |border |padding |CON| padding| border| margin|
- *   |-left  |-left  |-left   |TEN|  -rigth| -rigth| -rigth|
- *   |       |       |        *---*        |       |       |
- *   |       |       |    padding-bottom   |	   |       |
- *   |       |       +---------------------+       |       |
- *   |       |            border-bottom            |       |
- *   |       +-------------------------------------+       |
- *   |                    margin-bottom                    |
- *   +-----------------------------------------------------+
- * */
+/*
+/* Margin : es el margen que hay desde un elemento
+/*          hasta los que tenga al lado.
+/*
+/* Border : dibuja un borde alrededor justo de ese contenido.
+/*
+/* Padding : es el espacio que hay en un contenedor entre el
+/*           contenido y los bordes del contenedor.
+/*
+/*   +-----------------------------------------------------+
+/*   |                     margin-top                      |
+/*   |       +-------------------------------------+       |
+/*   |       |             border-top              |       |
+/*   |       |       +---------------------+       |       |
+/*   |       |       |     padding-top     |       |       |
+/*   |       |       |        +---+        |       |       |
+/*   |margin |border |padding |CON| padding| border| margin|
+/*   |-left  |-left  |-left   |TEN|  -rigth| -rigth| -rigth|
+/*   |       |       |        *---*        |       |       |
+/*   |       |       |    padding-bottom   |	   |       |
+/*   |       |       +---------------------+       |       |
+/*   |       |            border-bottom            |       |
+/*   |       +-------------------------------------+       |
+/*   |                    margin-bottom                    |
+/*   +-----------------------------------------------------+
+/* */
 
 .caja {
   margin:8px;

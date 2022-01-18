@@ -1,0 +1,57 @@
+body {
+  background-color:lightblue;
+  font-family:Arial, Helvetica, sans-serif;
+}
+.contenedor { /*para el contendor del medio*/
+  margin:20px;
+  padding:20px;
+  border-radius:30px;
+  background-color:lightcoral;
+}
+/*Dando formato a la lista*/
+ul {
+  list-style-type:square; /*tipo de punto de lista*/
+  background-color:white; /*fondo*/
+  margin:10px;/*margen*/
+  padding:15px;/*padding:*/
+  border-width:3px;
+  border-radius:10px;/*estilos*/
+  font-style:italic;
+} 
+/*Dando formato a los elemetos de la lista*/
+li{
+  border-top:solid 1px lightgray;
+  border-bottom:solid 1px lightgray;
+  margin-top: 8px;
+  margin-bottom:8px;
+  padding-top:8px;
+  padding-bottom:8px;
+}
+/*Dando formato a los elemetos de la lista*/
+table {
+  background-color:white;/*fondo de la tabla*/
+  margin:20px;padding:20px;
+  width:100%;
+  border-collapse:collapse; /*juntar los elementos*/
+}
+/*--Titulos de la tabla*/
+th {
+  text-align:center;
+  background-color:lightgreen;
+  border:solid 1px darkblue;
+  margin:0px;
+  padding:5px;
+  }
+/*--elementos de la tabla--*/  
+td {
+  text-align:center;
+  margin:0px;
+  border:solid 1px darkblue;
+}  
+
+/*NOTA,. 
+ * En caso sea necestio para hacer distincion entre elemtos fila
+ * pares e impares usar.
+ *  
+ *  tr:nth-child(odd) impar o tr:nth-child(even) par
+ * */
