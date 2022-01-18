@@ -1,0 +1,35 @@
+/*ejemplo de practica de css con texto*/
+body {
+  background-color:lightblue;
+}
+
+#TextoParaDarFormato {
+  /*formato caja*/
+  background-color:whitesmoke;padding:4px;margin:5px;
+
+  /*etiquetas para dar formato al texto*/
+  color:darkred; /*color fuente*/
+  text-align:justify;/*alineam: -left,center.rigth,justify*/
+  line-height:1.5;/* da espaciamiento entre lineas */
+  letter-spacing:2px; /*espacio entre letras*/
+  word-spacing:5px;/*espacios entre palabras*/
+  text-shadow:3px 2px 4px black;/*difuminado de sombra
+   distx disty difuminado(opcional) color */
+  font-family:"Arial";/*Tipo de fuente, debe estar disponible*/
+  font-style:italic;/**indicar opciones*/
+  font-size:1.5em; /*se puede configurar por px pero por 
+   se prefier em por motivos tipograficos 1em aprox 16px */
+  font-weight:200; /*peso de la fuente varia de acuerdo a la
+   tipografia, aumentar de 100 en 100 aprox */
+}
+
+
+/*estilo para las direcciones <a>*/
+a {/*estilo normal*/
+  background-color:lightyellow;padding:10px;margin:15px;font-size:2em;
+
+  text-decoration:none;/*subrarado link puede ser
+  underline overline line-through blink */
+  text-transform:uppercase;/*cambia mayusculas y minisculas*/
+  /*uppercase lowercase capitalize */
+}
