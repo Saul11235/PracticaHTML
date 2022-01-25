@@ -1,0 +1,28 @@
+body { background-color:lightblue;} /*color fondo*/
+.contenedor { 
+  background-color:white;
+  margin:4px;padding:4px;border-radius:10px;}
+ 
+.contenedor p {
+  color: white;
+  background-color:red;
+} 
+/*analizando cambios*/
+#maxw {
+ max-width:900px; 
+}  
+/*analizando ancho fijo*/
+#fijo {
+  width:300px;
+}
+/*fijo y desplazado*/
+/*NOTA,. POR DEFECTO TODOS LOS ELEMENTOS SON 
+ * position:static;   */
+#fijMOV {
+  width:300px;
+  position:relative;
+  /*position:fixed deja el contenido quieto en pantalla*/
+  /*USAR FIXED PARA MENUS O ELEMENTOS QUIETOS*/
+  left:150px; /*mover a la izquierda*/
+  bottom:10px;/*mover abajo*/
+}
