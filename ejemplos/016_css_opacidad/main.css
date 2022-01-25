@@ -1,0 +1,25 @@
+body {background-color:black; color:white; }
+/*Analizando los diferentes tipos de opacidad*/
+#Tipo1 { 
+  opacity:1;
+}
+/*-----------------*/
+#Tipo2 { 
+  opacity:0.8;
+}
+/*-----------------*/
+#Tipo3 { 
+  opacity:0.6;
+}
+/*-----------------*/
+#Tipo4 { 
+  opacity:0.4;
+}
+/*-----------------*/
+#Tipo5 { 
+  opacity:0.2;
+}
+/*-----------------*/
+#Tipo6 { 
+  opacity:0;
+}

@@ -1,1 +1,29 @@
 body { background-color:lightblue;}
+/*Analizando casos de overflow*/
+
+div {
+  width:400px;
+  height:400px;
+  background-color:white;
+  padding:20px;
+  margin:20px;
+  border-radius:20px;
+}
+/* Analizando los casos de overflow*/
+
+#panel_central{
+  overflow:auto;
+}
+/*variaa en caso sea necesario*/
+
+/*  overflow :visible  . por defecto **/
+/*  overflow :hiden   .. oculta corta  **/
+/*  overflow scroll .. añade barritas*/
+/*  overflow  auto   se adecua al objeto*/
+
+/* Para forzar en una direccion u otra usar
+ *
+ *  overflow-x
+ *  overflow-y
+ *
+ * */
