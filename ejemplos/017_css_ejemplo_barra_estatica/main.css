@@ -1,0 +1,59 @@
+body {
+  background-color:lightblue;
+  font-size:1.5em;
+  padding:0px;
+  margin:0px;
+
+}
+p{
+  color:darkred;
+}
+#contenido {
+  background-color: whitesmoke;
+  margin:40px;
+  padding:20px;
+  border-radius:40px;
+}
+img { 
+  width:400px;
+  height:280px;
+}
+/*Creando estilo para barra*/
+#barra { 
+  background-color:black; /*fondo negro en barra*/
+  height:100%;
+  width:20px;
+}
+ul {
+  background-color:rgba(0,0,0,0.95); 
+  width:100%; /*ajusta al 100%*/
+  top:0; 
+  color:white;
+  display:inline; 
+  list-style:none;/*eliminando guiones en lista*/ 
+  overflow:hidden;/*no mostrar overflow:*/
+  position:fixed; /*mantiene fijo en pantalla*/
+  margin:0px;  
+  padding:0px;
+  
+}
+
+li {
+  text-decoration:none; /*desactivando decorador*/
+  float:left; /*ordenar datos a la izq*/
+  margin:0px;
+}
+
+li a {
+  margin:30px;
+  height:40px;
+}
+
+li a:visited {
+  color:white; 
+  text-decoration:none;
+}
+
+li:hover {
+  background-color:darkgray;
+}
