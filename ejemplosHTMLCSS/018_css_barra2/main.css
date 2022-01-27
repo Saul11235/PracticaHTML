@@ -1,0 +1,48 @@
+body { 
+  background-color:lightblue;
+  margin:0; padding:0;
+  font-size:2em; /*size fuente*/
+}
+/*formato cuerpo---------------------------------*/
+#cuerpo {
+  margin:20px;
+  padding:20px;
+  border-radius:30px;
+  background-color:white;
+  margin-top:100px;       /*moviendo el contendedor*/
+}
+/*La barra estara definida en ul-----------------*/
+ul {
+  list-style:none;        /*quitar simbolos lista*/
+  /*quitar margenes interiores y exteriores*/
+  margin:0; padding:0;
+  overflow:hidden;        /*ocultar overflow*/
+  position:fixed;         /*mantener fijo*/
+  top:0;                  /*llevar arriba*/
+  width:100%;             /*ocupar 100% ancho de pantalla*/
+  background-color:black; /*color barra */
+  color:white;            /*color texto barra*/
+}
+/*----------------------------------------------*/
+li {
+  float:left;             /*alinear elem. a la derecha*/
+}
+/*----------------------------------------------*/
+li a {
+  display:block;          /*mantener vista en bloque*/
+  color:white;            /*color link*/
+  text-align:center;      /*centrar texto*/
+  padding:20px;           /*espacio interno*/
+  text-decoration:none;   /*quitar decoracion en links*/
+}
+/*----------------------------------------------*/
+li:hover {                /*si se mueve el mouse*/
+  background-color:darkblue;
+} 
+/*----------------------------------------------*/
+.linkActivo {             /*CLASE PARA LINKS ESPECIALES*/
+  background-color:darkred;
+}
+.linkActivo:hover { 
+  background-color:darkblue;
+}

@@ -1,5 +1,5 @@
-//El primer tipo de dato analizado que veremos sera el strin
-
+//El primer tipo de dato analizado sera el string
+ 
 // se separa entre comillas simples o dobles
 var texto1="Hola esto es una cadena de texto"
 var texto2='Hola este es otro texto'
@@ -16,5 +16,7 @@ var nulo=null
 //variable no definida
 var nodefinida=undefined
 
-
+//variable tipo numerica
+//
+var numero=Number(1)
 

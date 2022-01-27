@@ -22,7 +22,7 @@ img {
 #barra { 
   background-color:black; /*fondo negro en barra*/
   height:100%;
-  width:20px;
+  width:160px;
 }
 ul {
   background-color:rgba(0,0,0,0.95); 
@@ -35,7 +35,6 @@ ul {
   position:fixed; /*mantiene fijo en pantalla*/
   margin:0px;  
   padding:0px;
-  
 }
 
 li {
@@ -46,6 +45,7 @@ li {
 
 li a {
   margin:30px;
+  padding:20px;
   height:40px;
 }
 
