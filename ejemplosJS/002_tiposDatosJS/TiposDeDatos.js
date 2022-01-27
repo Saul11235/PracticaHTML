@@ -10,13 +10,16 @@ console.log(texto2)
 var verdadero=true
 var falso=false
 
-//variable nulo
+//variable nulo o vacio
 var nulo=null
 
 //variable no definida
 var nodefinida=undefined
 
 //variable tipo numerica
-//
 var numero=Number(1)
+
+//variable tipo object
+// son estructuras mas complejas para definir agrupan a lso tipos anteriores
+
 
