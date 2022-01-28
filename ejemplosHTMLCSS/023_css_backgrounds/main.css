@@ -1,0 +1,45 @@
+/*ESTILO PARA TODA LA PAG*/
+body {
+  background-color:lightblue;
+  padding:20px;
+}
+p {
+  font-size:1.5em;
+}
+div {
+  padding:30px;
+  margin:20px;
+  border-radius:40px;
+}
+div div p { /*solo texto blanco para los ejems*/ 
+  color:white;
+}
+div h1 { /*solo encabezados amarillos para los ejems*/ 
+  color:yellow;
+}
+
+/********DANDO FORMATO A LOS DIFERENTES TIPOS DE FONDO *****/
+#fondo1 {
+  /*fondo 1 con colores hexagesimales*/
+  background-color:#421212;
+}
+/*---------------------------------------------------------*/
+#fondo2 {
+  /*fondo 2 con imagen */
+  background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/ESO_-_Milky_Way.jpg/640px-ESO_-_Milky_Way.jpg);
+  /*NOTA si se fuerza width la imagen se forzara y se vera*/
+}
+/*----------------------------------------------------------*/
+#fondo3 {
+  /*fondo 2 con imagen sin repeticion */
+  background:darkblue; /*color para notar*/
+  background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/ClearSpace_logo.jpg/640px-ClearSpace_logo.jpg);
+  background-repeat:no-repeat; /*sin repeticion*/
+}
+/*----------------------------------------------------------*/
+#fondo4 {
+  background-color:darkgreen;
+}
+
+
+
