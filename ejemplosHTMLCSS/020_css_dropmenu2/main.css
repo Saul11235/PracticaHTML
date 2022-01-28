@@ -1,0 +1,70 @@
+body {
+  font-family:Arial, Helvetica, sans-serif;
+  background-color:lightblue;
+  font-size:1.2em;
+}
+.contenidotexto {
+  background-color:white;
+  font-size:2em;
+  margin:20px;
+  padding:20px;
+  border-radius:30px;
+}
+/*dando formato a dropdown
+/*
+/*  dropdown(OBJ-PADRE)
+/*        +--->dropdown-button(OBJ-HIJO) 
+/*        +--->dropdown-content(OBJ-HIJO)
+/*
+/* */
+.dropdown {/*PADRE ----------------- contendedor de las clases*/
+  position:relative;
+  display:inline-block;
+}
+.dropdown-button {/*hijo ------------------------------- boton*/
+  font-size:1.2em; /*formato de estilo en boton*/
+  border:none; 	   
+  color:white;
+  background-color:darkred;
+  padding:20px;
+  border-radius:20px;
+  cursor:pointer;     /*configurar mouse*/
+}
+.dropdown-content { /*hijo------------------contenido de lista*/
+  display:none;
+  position:absolute; /*respecto al padre*/
+  background-color:black;
+  min-width:120px; 
+  box-shadow:0px 0px 9px black;
+}
+.dropdown-content a {/* hijo de hijo ------------------- link */
+  color:white;
+  padding:20px;
+  text-decoration:none;
+  display:block;
+}
+.dropdown-content a:hover {/*link mouse*/
+  background-color:darkblue;
+}
+/*------------------------------------------------------------*/
+/*esconder y mostrar */
+.dropdown:hover .dropdown-button {
+  /*si se selecciona el padre dar color al boton*/
+  background-color:darkgreen;
+}
+.dropdown:hover .dropdown-content {
+  /*si se selecciona el padre mostrar el contenido*/
+  display:block;
+}
+
+
+
+
+
+
+
+
+
+
+
+

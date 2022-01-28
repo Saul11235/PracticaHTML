@@ -1,0 +1,64 @@
+body {
+  background-color:lightblue;
+  font-family:Arial, Helvetica, sans-serif;
+}
+p {
+  font-size:2em;
+  background-color:white;
+  margin:20px;
+  padding:20px;
+  border-radius:40px;
+}
+/*
+/*  FORMATO DE LISTA DESPLEGABLE
+/**/
+/**************************************************************/
+.contenedorMenu {          /*Contenedor menu es el padre*/
+  position:relative;       /*posicion relativa padre*/
+  display:inline-block;    /*posicion inline-block padre*/
+}
+/**************************************************************/
+.menuBoton {
+  background-color:darkblue;/*Estilo para el boton*/
+  color:white;
+  padding:20px;
+  border:none;
+  border-radius:20px;
+  font-size:1.5em;
+  cursor:pointer;          /*cambia a mano al pasar por encima*/
+}
+/*------------------------------------------------------------*/
+.menuBoton:hover {         /*formato si mouse es boton*/
+  background-color:darkslateblue;
+}
+/**************************************************************/
+.listadesplegable {
+  /*display:none;            /*oculta la lista*/
+  position:absolute;       /*relativo al padre*/
+  margin:0px;
+  padding:0px;
+}
+/* -----------------------------------------------------------*/
+
+/**************************************************************/
+.listadesplegable a {
+  margin:0;                  /*quitar margenes externos*/
+  background-color:black;    /*color fondo*/
+  color:white;               /*color texto*/
+  text-decoration:none; /*sin decoradores de texto en links*/
+  box-shadow:0px 0px 8px black;  /*dando sombra a elementos*/
+  padding:20px;                  /*volumen a lista*/
+  display:block;                /*dando formato a links*/
+}
+/*------------------------------------------------------------*/
+.listadesplegable a:hover {
+  background-color:darkslateblue;
+}
+/**************************************************************/
+/*configurado para aparecer*/
+.menuBoton:hover .listadesplegable {
+  display:block; /*activando visibilidad en otro elemento*/
+  background-color:red;
+}
+
+
