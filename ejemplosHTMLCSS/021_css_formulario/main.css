@@ -1,0 +1,55 @@
+body {
+  background-color:lightgoldenrodyellow;
+  font-family:Arial, Helvetica, sans-serif;
+}
+#contenido {
+  background-color:lightblue;
+  margin:30px;
+  padding:20px;
+  border-radius:10px;
+}
+/*Formato de formulario ====================================*/
+form{
+  background-color:white;
+  padding:20px;
+  margin:20px;
+  border-radius:30px; 
+  box-shadow:2px 2px 8px black;
+}
+label {
+  font-size:2em;
+  font-weight:bold;
+  color:darkred;
+  text-decoration:underline;
+}
+input[type=text] {
+  width:90%;
+  padding:20px;
+  margin:10px; 
+  box-sizing:border-box; /*ajusta el ancho de la caja**/
+  font-size:1.2em;
+}
+input[type=submit] {
+  width: 90%;
+  color:white;
+  background-color:darkblue;
+  border:none;
+  font-size:1.2em;
+  padding:20px;
+  margin:20px;
+  border-radius:30px; 
+}
+input[type=submit]:hover {
+  background-color:blueviolet;
+  cursor:pointer;
+}
+textarea {
+  width:90%;
+  padding:20px;
+  margin:10px;
+  box-sizing:border-box;
+  overflow:auto;
+  font-family:Arial, Helvetica, sans-serif;
+  font-size:1.2em;
+  resize:none;
+}
