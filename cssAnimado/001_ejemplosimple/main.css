@@ -1,0 +1,36 @@
+body {
+  background-color:lightblue;
+}
+/*Animaciones en css-----------------------------------------*/
+.dibujo {
+  background-color:red; /*dibujando un cuadrado simple*/
+  width:300px;
+  height:100px;
+  border-radius:5px;
+  /*valores para animacion*/
+  transition-property:background-color;
+  
+}
+/*-----------------------------------------------------------*/
+.dibujo:hover {
+  background-color:black;
+  width:400px;
+  height:200px;
+  border-radius:100px;
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
