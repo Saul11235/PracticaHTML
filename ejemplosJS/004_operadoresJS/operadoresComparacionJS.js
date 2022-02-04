@@ -18,8 +18,13 @@ console.log("desigualdad no estricta 2!='2'",comparacion4)
 //comparadores mayor que menor que mayor menor igual
 //tomando en cuenta 
 console.log("---")
-var comparacion5 =  1>999
-console.log("es 1>99",comparacion5)
-
+var comparacion5 = 1>999
+console.log("comparacion 1>99",comparacion5)
+var comparacion6 = 1<999
+console.log("comparacion 1<99",comparacion6)
+var comparacion7 = 1<=99
+console.log("comparacion 1<=99",comparacion7)
+var comparacion8 = 1>=99
+console.log("comparacion 1>=99",comparacion8)
 
 
