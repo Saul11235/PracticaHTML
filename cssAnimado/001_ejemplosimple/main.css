@@ -4,12 +4,21 @@ body {
 /*Animaciones en css-----------------------------------------*/
 .dibujo {
   background-color:red; /*dibujando un cuadrado simple*/
+  color:white;
   width:300px;
   height:100px;
   border-radius:5px;
   /*valores para animacion*/
-  transition-property:background-color;
-  
+   /*seleccionar las propiedades para animar*/
+  transition-property:background-color,width,height,border-radius;
+  /*colocar duracionn y delay*/
+  transition-duration:1s;
+  transition-delay:0.1s;
+  /*funcin de espaciamiento en nframes*/
+  transition-timing-function:linear;
+  /*tambien existen otras funciones como ease(por defecto 
+   * tambien se puede confi en una sola,linea
+   * transition: width 0.1s 1s ease*/
 }
 /*-----------------------------------------------------------*/
 .dibujo:hover {
