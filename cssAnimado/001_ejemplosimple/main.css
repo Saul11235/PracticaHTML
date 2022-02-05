@@ -12,8 +12,8 @@ body {
    /*seleccionar las propiedades para animar*/
   transition-property:background-color,width,height,border-radius;
   /*colocar duracionn y delay*/
-  transition-duration:1s;
-  transition-delay:0.1s;
+  transition-duration:0.5s;
+  transition-delay:0.05s;
   /*funcin de espaciamiento en nframes*/
   transition-timing-function:linear;
   /*tambien existen otras funciones como ease(por defecto 
@@ -26,9 +26,6 @@ body {
   width:400px;
   height:200px;
   border-radius:100px;
-
-
-
 }
 
 
