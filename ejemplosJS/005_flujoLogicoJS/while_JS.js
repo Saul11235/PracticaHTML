@@ -8,6 +8,7 @@ while( limite>contador) {
   console.log("El contador es:",contador)
   contador++//aumenta en uno
 }
+contador=0
 
 
 
