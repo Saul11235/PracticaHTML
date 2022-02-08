@@ -1,9 +1,10 @@
 //ejemplo switch
 //esto ajusta el comportamiento a una serie de parametros
-let constante=4
-
-//ejemplo sin linea break
-switch (constante) {
+let variable=4
+console.log("\nvariable es:",variable)
+console.log("\nSWITCH SIN BREAK\n----------------\n")
+//ejemplo sin linea break =====================================
+switch (variable) {
   case 1:
     console.log("variable es uno");
   case 2:
@@ -17,9 +18,9 @@ switch (constante) {
   default:
     console.log("Otro valor no conozco");
 }
-//ejemplo con linea break termina el ciclo
-console.log("\nejemplo con la instruccion break \n")
-switch (constante) {
+console.log("\nSWITCH CON BREAK\n----------------\n")
+//ejemplo con linea break =====================================
+switch (variable) {
   case 1:
     console.log("variable es uno");
     break;
