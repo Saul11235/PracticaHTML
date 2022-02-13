@@ -11,11 +11,16 @@ div {
   margin:20px;
   border-radius:40px;
 }
+div div {
+  background-color:darkorange;
+}
 div div p { /*solo texto blanco para los ejems*/ 
   color:white;
 }
 div h1 { /*solo encabezados amarillos para los ejems*/ 
-  color:yellow;
+  color:darkblue;
+  background-color:lightyellow;
+  padding:3px;
 }
 
 /********DANDO FORMATO A LOS DIFERENTES TIPOS DE FONDO *****/
@@ -26,20 +31,55 @@ div h1 { /*solo encabezados amarillos para los ejems*/
 /*---------------------------------------------------------*/
 #fondo2 {
   /*fondo 2 con imagen */
-  background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/ESO_-_Milky_Way.jpg/640px-ESO_-_Milky_Way.jpg);
-  /*NOTA si se fuerza width la imagen se forzara y se vera*/
+  background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/ClearSpace_logo.jpg/640px-ClearSpace_logo.jpg);
 }
 /*----------------------------------------------------------*/
 #fondo3 {
   /*fondo 2 con imagen sin repeticion */
-  background:darkblue; /*color para notar*/
   background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/ClearSpace_logo.jpg/640px-ClearSpace_logo.jpg);
   background-repeat:no-repeat; /*sin repeticion*/
 }
 /*----------------------------------------------------------*/
 #fondo4 {
-  background-color:darkgreen;
+  /*position*/
+  background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/ClearSpace_logo.jpg/640px-ClearSpace_logo.jpg);
+  background-repeat:no-repeat; /*sin repeticion*/
+  background-position: right bottom; /**colocar imagen */
+}
+/*----------------------------------------------------------*/
+
+#fondo5 {
+  /*position*/
+  background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/ClearSpace_logo.jpg/640px-ClearSpace_logo.jpg);
+  background-repeat:no-repeat; /*sin repeticion*/
+  background-attachment:fixed; /*por defecto scroll*/
+}
+/*----------------------------------------------------------*/
+
+#fondo6 {
+  /*Todo esto en una linea*/
+  /*background: colorFondo ImagenUrl repeticion posX posY fixed-scroll*/
+  background: darkcyan url(https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/ClearSpace_logo.jpg/640px-ClearSpace_logo.jpg) no-repeat right top fixed;
 }
 
 
+/*----------------------------------------------------------*/
+#fondoEXTRA {
+  /*modificando el fondo del contenedor*/
+  background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/ClearSpace_logo.jpg/640px-ClearSpace_logo.jpg);
+  width:500px;
+  height:1000px; 
+}
 
+/*----------------------------------------------------------*/
+#fondoEXTRA2 {
+  /*dim imagen de los fondos de la imagen*/
+  background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/ClearSpace_logo.jpg/640px-ClearSpace_logo.jpg);
+  background-size: 180px 180px;
+}
+
+#fondoEXTRA3 {
+  /*expandir la imagen en todo el contenedor*/
+  background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/ClearSpace_logo.jpg/640px-ClearSpace_logo.jpg);
+  background-size:cover;
+}
