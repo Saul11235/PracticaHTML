@@ -1,0 +1,28 @@
+
+
+p {
+  margin:30px;
+}
+
+.caja {
+  width:130px;
+  height:130px;
+}
+
+/* ---------------------------- */
+
+#ejemplo_flex {
+  display: flex;
+  background-color:blue;
+}
+
+/* ---------------------------- */
+
+#ejemplo_inline_flex{
+  display: inline-flex;
+  background-color: red;
+}
+
+
+
+
