@@ -1,0 +1,56 @@
+body {
+  margin:0px;margin:0px;
+}
+h1 {
+  margin:20px;
+}
+.caja {
+  width: 30%;
+  /*no set height: for strech mode*/
+  color:white;
+  font-size:2em;
+  text-align:center;
+}
+#caja1 {background-color: red;}
+#caja2 {background-color: blue;}
+#caja3 {background-color: green;}
+#caja4 {background-color: yellow; color:black;}
+#caja5 {background-color: orange; color:black;}
+.contenedor {
+  padding:20px;
+  margin:0px;
+  width:90%;
+  height:250px;
+  background-color:lightblue;
+  display: flex;
+  flex-flow: row wrap;
+}
+/* ---------------------------- - */
+#_flex_start{
+  align-content:flex-start;
+ }
+/* ---------------------------- - */
+#_flex_end{
+  align-content:flex-end;
+}
+/* ---------------------------- - */
+#_center{
+  align-content:center;
+}
+/* ---------------------------- - */
+#_space_between{
+  align-content:space-between;
+}
+/* ---------------------------- - */
+#_space_around{
+  align-content:space-around;
+}
+/* ---------------------------- - */
+#_stretch{
+  align-content:stretch;
+}
+
+
+
+
+
