@@ -1,0 +1,12 @@
+body {
+  background-color:black;
+  font-family:Arial;
+  color:white;
+  font-size:4.5ex;
+}
+
+/* -- estilo scroll--*/
+
+body {
+  scroll-snap-type:x;
+}
