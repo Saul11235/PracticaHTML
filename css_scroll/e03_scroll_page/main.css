@@ -1,0 +1,50 @@
+body {
+  margin:0;
+  padding:0;
+  height:100%;
+  background-color: darkblue;
+  color:white;
+  font-family:Arial;
+  font-size:3em;
+
+  /*scroll type*/
+  flex-flow: column nowrap;
+  overflow:auto;
+  scroll-snap-type: y mandatory;
+
+}
+
+body div {
+  color: 1;
+  height:700px;
+  scroll-snap-align:start;
+}
+
+/*--------------*/
+#pannel1{
+  background-color:limegreen;
+
+  scroll-snap-align:start;
+}
+#pannel2{
+  background-color:pink;
+
+  scroll-snap-align:start;
+}
+#pannel3{
+  background-color:orange;
+
+  scroll-snap-align:start;
+}
+#pannel4{
+  background-color:red;
+
+  scroll-snap-align:start;
+}
+#pannel5{
+  background-color:black;
+
+  scroll-snap-align:start;
+}
+/*  --------------  */
+
